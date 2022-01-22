@@ -16,4 +16,13 @@ public class HelloController {
 		return "<h1>Welcome to Jenkins and saying Hi !!</h1>";
 	}
 
+	@RequestMapping("/sayBye")
+	public String sayBye() {
+		return "<h1>Good Bye !!</h1>";
+	}
+	
+	@RequestMapping("/greet")
+	public String greet() {
+		return "<h1>Good Morning !!</h1>";
+	}
 }
